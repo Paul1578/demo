@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class BackendService {
-  private apiUrl = 'https://demo-backend-cg46.onrender.com'; // URL del backend Nest.js
+  private apiUrl = 'https://demo-backend-cg46.onrender.com'; 
 
   constructor() {}
 
