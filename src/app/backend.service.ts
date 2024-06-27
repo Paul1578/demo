@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class BackendService {
-  private apiUrl = 'https://demo-backend-cg46.onrender.com/'; // URL del backend Nest.js
+  private apiUrl = 'https://demo-backend-cg46.onrender.com/'; // URL del backend Nest.js https://demo-backend-cg46.onrender.com
 
   constructor(private http: HttpClient) {}
 

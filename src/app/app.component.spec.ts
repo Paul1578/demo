@@ -3,6 +3,7 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { BackendService } from './backend.service'; // Importa tu servicio
 import { of } from 'rxjs'; // Importa 'of' desde rxjs para simular observables
+import { HttpClientModule } from '@angular/common/http';
 
 describe('AppComponent', () => {
   let backendServiceStub: Partial<BackendService>; // Declara el stub del servicio
@@ -14,7 +15,8 @@ describe('AppComponent', () => {
 
     await TestBed.configureTestingModule({
       imports: [
-        RouterModule.forRoot([])
+        RouterModule.forRoot([]),
+        HttpClientModule
       ],
       declarations: [
         AppComponent

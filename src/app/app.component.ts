@@ -9,7 +9,7 @@ import { BackendService } from './backend.service';
 export class AppComponent {
   title = 'portfolio-frontend-yavirac';
 
-  response: string = '';
+  response: any;
 
   constructor(private backendService: BackendService) {}
 
